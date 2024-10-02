@@ -1,3 +1,4 @@
+# SQL: Analyzing and Formatting PostgreSQL Sales Data
 ## Key Questions
 What are the top-performing products in each category based on total sales?
 How can sales performance be categorized by salesperson and market?
