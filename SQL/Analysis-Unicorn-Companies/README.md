@@ -22,7 +22,7 @@ A second CTE was used to aggregate data by both industry and year (2019, 2020, 2
 ### Step 3: Final Query
 The final query joins the results from both CTEs, filtering the top 3 industries and the target years (2019, 2020, 2021). The average valuation is displayed in billions (rounded to two decimal places).Results are sorted by industry and year in descending order.
 ## Code
-The SQL code for this project can be found [here](SQL/Analysis-Unicorn-Companies/analysis.sql)
+The SQL code for this project can be found [here](./SQL/Analysis-Unicorn-Companies/analysis.sql)
 ## Output
 You can download the output CSV file [here](./sql/Analysis-Unicorn-Companies/top3_industries_output.csv)
 ## Conclusion
