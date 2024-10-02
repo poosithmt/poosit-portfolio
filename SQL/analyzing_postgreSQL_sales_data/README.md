@@ -22,7 +22,8 @@ I began by determining the top five products from each category based on their h
 - `product_total_sales` (rounded to two decimal places)
 - `product_total_profit` (rounded to two decimal places)
 - `product_rank`
-
+### output
+[Top 5 Products each Category](top5_product_output.csv)
 **2. Categorizing Sales Performance**
 
 Next, I focused on categorizing the sales performance of each salesperson and the markets in which they operate. I analyzed various metrics, such as the total count of `orders`, a categorized column called `sales_bin`, the count of `returned orders`, the sum of `sales` as `total_sales`, and the sum of returned sales as `returned_sales`. To create the `sales_bin`, I categorized sales into bins based on their value: `'0-100'`, `'100-500'`, and `'500+'`, ensuring that the lower range bound was inclusive and the upper bound excluded. The output was sorted by `person`, `market`, and `sales_bin`. This query was saved as `salesperson_market_sales_details`, containing the following columns:
