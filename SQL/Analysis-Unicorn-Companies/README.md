@@ -24,6 +24,6 @@ The final query joins the results from both CTEs, filtering the top 3 industries
 ## Code
 The SQL code for this project can be found [here](analysis.sql)
 ## Output
-You can download the output CSV file [here](./sql/Analysis-Unicorn-Companies/top3_industries_output.csv)
+You can download the output CSV file [here](top3_industries_output.csv)
 ## Conclusion
 This project demonstrates the ability to work with SQL for data aggregation and analysis. The insights show the top industries by unicorn count and valuation, which can be useful for investors and businesses looking for trends in high-growth sectors.
