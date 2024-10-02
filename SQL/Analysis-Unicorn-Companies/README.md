@@ -21,5 +21,9 @@ The top 3 industries were selected based on the number of unicorn companies from
 A second CTE was used to aggregate data by both industry and year (2019, 2020, 2021). This CTE calculates the total number of unicorns per industry and the average valuation.
 ### Step 3: Final Query
 The final query joins the results from both CTEs, filtering the top 3 industries and the target years (2019, 2020, 2021). The average valuation is displayed in billions (rounded to two decimal places).Results are sorted by industry and year in descending order.
+## Code
+The SQL code for this project can be found [here](./sql/Analysis-Unicorn-Companies/analysis.sql)
+## Output
+You can download the output CSV file [here](./sql/Analysis-Unicorn-Companies/top3_industries_output.csv)
 ## Conclusion
 This project demonstrates the ability to work with SQL for data aggregation and analysis. The insights show the top industries by unicorn count and valuation, which can be useful for investors and businesses looking for trends in high-growth sectors.
